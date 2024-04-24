@@ -43,7 +43,7 @@ const Home = () => {
       <div className="mb-3 mt-3">
         <h1 className="text-xl font-bold">Clubs @ IIIT-B</h1>
         <p className="font-medium mt-3 mb-3">
-          The clubs of IIIT-H conduct various captivating events throughout the
+          The clubs of IIIT-B conduct various captivating events throughout the
           year. Students across all UG/PG batches engage in the events, which
           tells how lively the campus life is! There are 2 Affinity Groups & 23
           Clubs at IIITH, divided into technical and cultural categories.
