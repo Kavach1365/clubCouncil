@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/clubCouncil/static/css/main.dd22bf7a.css",
+    "main.js": "/clubCouncil/static/js/main.d4300a86.js",
+    "index.html": "/clubCouncil/index.html",
+    "main.dd22bf7a.css.map": "/clubCouncil/static/css/main.dd22bf7a.css.map",
+    "main.d4300a86.js.map": "/clubCouncil/static/js/main.d4300a86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd22bf7a.css",
+    "static/js/main.d4300a86.js"
+  ]
+}
