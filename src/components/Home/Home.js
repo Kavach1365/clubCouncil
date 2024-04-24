@@ -16,14 +16,14 @@ const Home = () => {
     <div>
       <div className="mb-4">
         <h1 className="text-xl font-bold mb-4">Upcoming & Recent Events</h1>
-        <div className="flex">
+        <div className="flex flex-wrap">
           {recentEventsList.map((event) => (
             <Link
               to={`/events/${event.id}`}
-              className="w-4/5 rounded-xl shadow-xl hover:scale-95 cursor-pointer"
+              className="w-56 rounded-xl shadow-xl hover:scale-95 cursor-pointer m-1 mb-2"
               key={event.id}
             >
-              <div className="  mr-3 h-92  ">
+              <div className="h-92">
                 <div className="h-60">
                   <img
                     src={event.imgUrl}

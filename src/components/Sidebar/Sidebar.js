@@ -25,10 +25,10 @@ const Sidebar = () => {
       />
       <div className="mt-10">
         <div className="mb-6">
-          <Link to="/" onClick={() => onChangeActiveTabId("/")}>
+          <Link to="/clubCouncil" onClick={() => onChangeActiveTabId("/")}>
             <div
               className={
-                activeTabID === "/"
+                activeTabID === "/clubCouncil"
                   ? `bg-blue-100 rounded-md flex items-center mb-2  h-10 pl-6 cursor-pointer`
                   : `flex items-center mb-2 hover:bg-gray-100 hover:rounded-md h-10 pl-6 cursor-pointer`
               }
@@ -37,10 +37,13 @@ const Sidebar = () => {
               <p className="text-gray-500 ">Home</p>
             </div>
           </Link>
-          <Link to="/clubs" onClick={() => onChangeActiveTabId("/clubs")}>
+          <Link
+            to="/clubCouncil/clubs"
+            onClick={() => onChangeActiveTabId("/clubCouncil/clubs")}
+          >
             <div
               className={
-                activeTabID === "/clubs"
+                activeTabID === "/clubCouncil/clubs"
                   ? `bg-blue-100 rounded-md flex items-center mb-2  h-10 pl-6 cursor-pointer`
                   : `flex items-center mb-2 hover:bg-gray-100 hover:rounded-md h-10 pl-6 cursor-pointer`
               }
@@ -49,10 +52,13 @@ const Sidebar = () => {
               <p className="text-gray-500 ">Clubs</p>
             </div>
           </Link>
-          <Link to="/events" onClick={() => onChangeActiveTabId("/events")}>
+          <Link
+            to="/clubCouncil/events"
+            onClick={() => onChangeActiveTabId("/events")}
+          >
             <div
               className={
-                activeTabID === "/events"
+                activeTabID === "/clubCouncil/events"
                   ? `bg-blue-100 rounded-md flex items-center mb-2  h-10 pl-6 cursor-pointer`
                   : `flex items-center mb-2 hover:bg-gray-100 hover:rounded-md h-10 pl-6 cursor-pointer`
               }
@@ -61,10 +67,13 @@ const Sidebar = () => {
               <p className="text-gray-500 ">Events</p>
             </div>
           </Link>
-          <Link to="/calender" onClick={() => onChangeActiveTabId("/calender")}>
+          <Link
+            to="/clubCouncil/calender"
+            onClick={() => onChangeActiveTabId("/calender")}
+          >
             <div
               className={
-                activeTabID === "/calender"
+                activeTabID === "/clubCouncil/calender"
                   ? `bg-blue-100 rounded-md flex items-center mb-2  h-10 pl-6 cursor-pointer`
                   : `flex items-center mb-2 hover:bg-gray-100 hover:rounded-md h-10 pl-6 cursor-pointer`
               }
@@ -73,10 +82,13 @@ const Sidebar = () => {
               <p className="text-gray-500 ">Calender</p>
             </div>
           </Link>
-          <Link to="/gallery" onClick={() => onChangeActiveTabId("/gallery")}>
+          <Link
+            to="/clubCouncil/gallery"
+            onClick={() => onChangeActiveTabId("/gallery")}
+          >
             <div
               className={
-                activeTabID === "/gallery"
+                activeTabID === "/clubCouncil/gallery"
                   ? `bg-blue-100 rounded-md flex items-center mb-2  h-10 pl-6 cursor-pointer`
                   : `flex items-center mb-2 hover:bg-gray-100 hover:rounded-md h-10 pl-6 cursor-pointer`
               }
@@ -89,12 +101,12 @@ const Sidebar = () => {
         <div className="mb-4">
           <h1 className="font-semibold text-sm pl-6 mb-2">ABOUT</h1>
           <Link
-            to="/about/club-council"
+            to="/clubCouncil/about/club-council"
             onClick={() => onChangeActiveTabId("/about/club-council")}
           >
             <div
               className={
-                activeTabID === "/about/club-council"
+                activeTabID === "/clubCouncil/about/club-council"
                   ? `bg-blue-100 rounded-md flex items-center mb-2  h-10 pl-6 cursor-pointer`
                   : `flex items-center mb-2 hover:bg-gray-100 hover:rounded-md h-10 pl-6 cursor-pointer`
               }
@@ -104,8 +116,10 @@ const Sidebar = () => {
             </div>
           </Link>
           <Link
-            to="/about/supervisory-bodies"
-            onClick={() => onChangeActiveTabId("/about/supervisory-bodies")}
+            to="/clubCouncil/about/supervisory-bodies"
+            onClick={() =>
+              onChangeActiveTabId("/clubCouncil/about/supervisory-bodies")
+            }
           >
             <div
               className={
@@ -122,12 +136,12 @@ const Sidebar = () => {
         <div className="mb-4">
           <h1 className="font-semibold text-sm pl-6 mb-2">HELP</h1>
           <Link
-            to="/bug-report"
+            to="/clubCouncil/bug-report"
             onClick={() => onChangeActiveTabId("/bug-report")}
           >
             <div
               className={
-                activeTabID === "/bug-report"
+                activeTabID === "/clubCouncil/bug-report"
                   ? `bg-blue-100 rounded-md flex items-center mb-2  h-10 pl-6 cursor-pointer`
                   : `flex items-center mb-2 hover:bg-gray-100 hover:rounded-md h-10 pl-6 cursor-pointer`
               }

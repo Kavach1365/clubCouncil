@@ -15,43 +15,43 @@ import Event from "./components/Event/Event";
 
 const appRouter = createBrowserRouter([
   {
-    path: "/",
+    path: "/clubCouncil",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/clubCouncil",
         element: <Home />,
       },
       {
-        path: "/clubs",
+        path: "/clubCouncil/clubs",
         element: <Clubs />,
       },
       {
-        path: "/events",
+        path: "/clubCouncil/events",
         element: <Events />,
       },
       {
-        path: "/calender",
+        path: "/clubCouncil/calender",
         element: <Calender />,
       },
       {
-        path: "/gallery",
+        path: "/clubCouncil/gallery",
         element: <Gallery />,
       },
       {
-        path: "/about/club-council",
+        path: "/clubCouncil/about/club-council",
         element: <ClubCouncil />,
       },
       {
-        path: "/about/supervisory-bodies",
+        path: "/clubCouncil/about/supervisory-bodies",
         element: <SupervisoryBodies />,
       },
       {
-        path: "/bug-report",
+        path: "/clubCouncil/bug-report",
         element: <BugReport />,
       },
       {
-        path: "/events/:id",
+        path: "/clubCouncil/events/:id",
         element: <Event />,
       },
     ],
